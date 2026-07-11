@@ -9,7 +9,8 @@ in {
 		pipewire
 		wireplumber
 		pamixer
-		helvum
+		#helvum
+		crosspipe
 	];
 
 	services.pipewire = {
@@ -23,7 +24,8 @@ in {
 		wireplumber.enable = true;
 	};
 
-	hardware.pulseaudio.enable = false;
+	#hardware.pulseaudio.enable = false;
+	services.pulseaudio.enable = false;
 
 	security.rtkit.enable = true;
 }
