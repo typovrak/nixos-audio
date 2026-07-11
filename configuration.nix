@@ -9,8 +9,7 @@ in {
 		pipewire
 		wireplumber
 		pamixer
-		#helvum
-		crosspipe
+		helvum
 	];
 
 	services.pipewire = {
