@@ -9,7 +9,7 @@ in {
 		pipewire
 		wireplumber
 		pamixer
-		helvum
+		crosspipe
 	];
 
 	services = {
